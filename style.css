@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button{
+    padding: 20px;
+    width: 150px;
+    background-color: rgb(188,34,60);
+    border: none;
+    border-radius: 100px;
+    box-shadow: 3px 2px 3px 2px black;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-inline: 10px;
+    transition: 1.2s;
+}
+
+button:hover{
+    transform: translateY(-10px);
+}
